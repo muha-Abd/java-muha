@@ -1,0 +1,5 @@
+mkdir src
+mkdir lab1
+
+echo keep > src/.gitkeep
+echo keep > lab1/.gitkeep
