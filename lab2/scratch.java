@@ -6,7 +6,7 @@ class Scratch {
 public class PrimitiveExample {
 
     public static void main(String[] args) {
-        // Переменные примитивных типов
+
         int age = 20;
         double height = 1.75;
         boolean isStudent = true;
@@ -14,7 +14,6 @@ public class PrimitiveExample {
         // Константа
         final String UNIVERSITY = "МГУ";
 
-        // Вывод значений в консоль с пояснениями
         System.out.println("Возраст: " + age + " лет");
         System.out.println("Рост: " + height + " метра");
         System.out.println("Является студентом: " + isStudent);
