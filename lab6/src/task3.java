@@ -14,10 +14,8 @@ public class task3 {
         System.out.print("Введите целое число: ");
         int number = scanner.nextInt();
 
-        // Вызов метода
         boolean result = isEven(number);
 
-        // Вывод результата в понятном формате
         if (result) {
             System.out.println("Число " + number + " является чётным.");
         } else {

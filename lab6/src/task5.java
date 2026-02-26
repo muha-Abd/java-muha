@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class task5 {
 
-    // Рекурсивный метод возведения в степень
+
     public static long power(int base, int exponent) {
 
         // Базовый случай
@@ -10,7 +10,7 @@ public class task5 {
             return 1;
         }
 
-        // Рекурсивный вызов (только для положительной степени)
+
         return base * power(base, exponent - 1);
     }
 

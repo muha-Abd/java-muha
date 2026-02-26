@@ -1,19 +1,13 @@
 import java.util.Scanner;
 
 public class task4 {
-
-    // Рекурсивный метод вычисления факториала
     public static long factorial(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("Факториал отрицательного числа не существует.");
         }
-
-        // Базовый случай
         if (n == 0 || n == 1) {
             return 1;
         }
-
-        // Рекурсивный вызов
         return n * factorial(n - 1);
     }
 
